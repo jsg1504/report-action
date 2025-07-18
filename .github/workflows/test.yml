@@ -9,6 +9,9 @@ jobs:
       - name: 'Checkout'
         uses: actions/checkout@v4
 
+      - name: 'Install dependencies'
+        run: npm install
+
       - name: 'Run my custom action'
         uses: ./ 
         with:
