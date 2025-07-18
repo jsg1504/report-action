@@ -1,0 +1,17 @@
+name: 'My Custom Action'
+description: 'This is a custom GitHub Action.'
+author: 'Your Name'
+
+inputs:
+  greeting:
+    description: 'A friendly greeting'
+    required: true
+    default: 'Hello'
+
+outputs:
+  time:
+    description: 'The time the action was run'
+
+runs:
+  using: 'node20'
+  main: 'index.js'
