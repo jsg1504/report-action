@@ -6,6 +6,9 @@ inputs:
   chart-data:
     description: 'JSON data for the chart'
     required: true
+  github-token:
+    description: 'GitHub token for pushing to gh-pages'
+    required: true
 
 outputs:
   html-report:
