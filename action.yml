@@ -3,14 +3,13 @@ description: 'This is a custom GitHub Action.'
 author: 'Your Name'
 
 inputs:
-  greeting:
-    description: 'A friendly greeting'
+  chart-data:
+    description: 'JSON data for the chart'
     required: true
-    default: 'Hello'
 
 outputs:
-  time:
-    description: 'The time the action was run'
+  html-report:
+    description: 'The generated HTML report with the chart'
 
 runs:
   using: 'node20'
